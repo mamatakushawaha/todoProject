@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+    .container{
+        max-width: 350px;
+        width: 360px;
+        margin: 30vh auto;
+    }
+    .input-container{
+        width: 100%;
+        border: 2px solid black;
+    }
+    h1{
+        margin-left: 35px;
+        color: lightseagreen;
+        font-weight: 500;
+        
+    }
+    hr{
+        margin-bottom: 10px;
+    }
+    input{
+        /* width: 200px; */
+        padding: 3% 3%;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background: #d7d9e0;
+        margin-left: 35px;
+    }
+    button{
+        height: 40px;
+        width: 40px;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        background-color: rgb(111, 111, 253);
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>ToDo List </h1><hr>
+    <div class="input-container">
+        <input type="text" placeholder="Add items...">
+        <button id="addTask">+</button>
+        <ul class="list-item">
+            
+        </ul>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $("addTask").click(function(){
+            
+        })
+    })
+</script>
+</body>
+</html>
